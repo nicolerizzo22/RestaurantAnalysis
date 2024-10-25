@@ -1,4 +1,4 @@
--- Restaurant Order Analysis for Taste of the World Cafe. 
+-- Restaurant Order Analysis for Fancy Pants Restaurant. 
 -- This restaurant debuted a new menu at the start of the year.
 -- You've been asked to dig into the customer data and see what items are doing well/ not doing well & what the top customers seem to like best.
 -- Objective #1 - Explore the menu_items table to get an idea of what's on the new menu
