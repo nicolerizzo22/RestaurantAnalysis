@@ -1,13 +1,15 @@
--- Restaurant Order Analysis for Fancy Pants Restaurant. 
+-- Restaurant Order Analysis for Taste of the World Cafe. 
 -- This restaurant debuted a new menu at the start of the year.
 -- You've been asked to dig into the customer data and see what items are doing well/ not doing well & what the top customers seem to like best.
+
+
 -- Objective #1 - Explore the menu_items table to get an idea of what's on the new menu
 USE restaurant_db;
+
 -- 1. View the menu_items table 
 SELECT * FROM menu_items;
 
 -- 2. Find the number of items on the menu
-
 SELECT COUNT(item_name) 
 FROM menu_items;
 
@@ -43,6 +45,7 @@ FROM menu_items
 GROUP BY category;
 
 -- Objective #2 - Explore the order_details table to get an idea of the data that's been collected.
+
 -- 1. View the order_details table
 SELECT * FROM	order_details;
 
